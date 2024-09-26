@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.body-form {
+    background-color: #00ced1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    background-color: #00ced1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.input-field-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field-1 input {
+    width: 50%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.input-field-1 input:first-child {
+    margin-right: 10px; 
+    width: 50%;
+}
+
+.btn {
+    width: 50%;
+    padding: 10px;
+    background-color: #f9a825;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 210px;
+}
+
+.h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    padding-left: 20px;
+    margin-top: 100px;
+}
+
+.contact-info h2 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.contact-info p, .contact-info ul {
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact-info ul li {
+    margin: 5px 0;
+}
+.body-cv {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+}
+
+.header img {
+    margin-right: 20px; 
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info h2 {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    color: gray;
+}
+.info2{
+    margin-left: 1000px;
+}
+.profile h3{
+    display: flex;
+    padding: 20px;
+    margin-left: 20px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    color: #b16f04;
+    margin-left: 20px;
+}
