@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+}
+
+.section2 {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F7F7F7;
+}
+
+.section2 h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0A0A42;
+    margin-bottom: 40px;
+}
+
+.images {
+    text-align: center; 
+}
+
+.images img {
+    display: inline-block; 
+    margin: 0 15px; 
+    width: 150px; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

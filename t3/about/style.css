@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section1 {
+    background-color: #0A85EA;
+    padding: 20px 60px;
+    text-align: center;
+    color: white;
+}
+
+.info {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.paragraph p {
+    margin: 20px 0;
+}
+
+.company-image {
+    display: block;
+    width: 980px;
+    height: 450px;
+    margin: 40px auto 0;
+    background-color: #fff; 
+}
